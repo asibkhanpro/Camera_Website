@@ -1,0 +1,586 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Denton</title>
+    <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.svg">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/default.css">
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+</head>
+
+<body>
+    <!-- Preloader -->
+    <div id="preloader">
+        <div class="loader3">
+            <span></span>
+            <span></span>
+        </div>
+    </div>
+    <header>
+        <div class="header_top">
+            <span>Orders over $10,000 get 10% off!</span>
+        </div>
+        <div class="header_area pt-15 pb-15 main-header">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-3 col-3">
+                        <div class="logo"><a href="#"><img src="./assets/img/logo.png" alt=""></a></div>
+                    </div>
+                    <div class="col-lg-9 col-md-9 nav-links d-flex justify-content-between align-items-center"
+                        id="navLinks">
+                        <div class="main_menu text-center">
+                            <ul>
+                                <li class="nav-item"><a class="nav-link fw-medium active" href="#">Home</a></li>
+                                <li class="nav-item"><a class="nav-link fw-medium" href="#">Shop</a></li>
+                                <li class="nav-item dropdown position-static">
+                                    <a class="nav-link dropdown-toggle fw-medium" href="#" id="categoriesDropdown"
+                                        role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        Categories <img class="ml-10" src="assets/img/arrow-down.svg" alt="">
+                                    </a>
+                                    <div class="dropdown-menu custom-megamenu" aria-labelledby="categoriesDropdown">
+                                        <div class="container">
+                                            <div class="mega_menu_white_bg">
+                                                <div class="row g-4">
+                                                    <div class="col-lg-4 col-md-6">
+                                                        <div class="mega_menus_content d-flex">
+                                                            <div class="mega_menu_icon">
+                                                                <img src="assets/img/camera.svg" alt="">
+                                                            </div>
+                                                            <div class="mega_menu_text">
+                                                                <h6>Cameras</h6>
+                                                                <p>Professional cinema, DSLR, and mirrorless cameras
+                                                                    for
+                                                                    every production need.</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-lg-4 col-md-6">
+                                                        <div class="mega_menus_content d-flex">
+                                                            <div class="mega_menu_icon">
+                                                                <img src="assets/img/Interchangeable lenses.svg" alt="">
+                                                            </div>
+                                                            <div class="mega_menu_text">
+                                                                <h6>Lenses</h6>
+                                                                <p>Prime and zoom lenses compatible with major
+                                                                    camera
+                                                                    systems.</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-lg-4 col-md-6">
+                                                        <div class="mega_menus_content d-flex">
+                                                            <div class="mega_menu_icon">
+                                                                <img src="assets/img/light.svg" alt="">
+                                                            </div>
+                                                            <div class="mega_menu_text">
+                                                                <h6>Lighting</h6>
+                                                                <p>Studio, on-camera, and portable lighting setups
+                                                                    for
+                                                                    all environments.</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-lg-3 col-md-6">
+                                                        <div class="mega_menus_content d-flex">
+                                                            <div class="mega_menu_icon">
+                                                                <img src="assets/img/monitor.svg" alt="">
+                                                            </div>
+                                                            <div class="mega_menu_text">
+                                                                <h6>Monitors</h6>
+                                                                <p>Field and studio monitors for accurate video
+                                                                    preview
+                                                                    and color grading.</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-lg-3 col-md-6">
+                                                        <div class="mega_menus_content d-flex">
+                                                            <div class="mega_menu_icon">
+                                                                <img src="assets/img/heads.svg" alt="">
+                                                            </div>
+                                                            <div class="mega_menu_text">
+                                                                <h6>Heads</h6>
+                                                                <p>Tripod, fluid, and gear heads designed for
+                                                                    precision
+                                                                    camera movement.</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-lg-3 col-md-6">
+                                                        <div class="mega_menus_content d-flex">
+                                                            <div class="mega_menu_icon">
+                                                                <img src="assets/img/motion_control.svg" alt="">
+                                                            </div>
+                                                            <div class="mega_menu_text">
+                                                                <h6>Motion Control Robots</h6>
+                                                                <p>Automated rigs for dynamic, repeatable camera
+                                                                    motion
+                                                                    <br> shots.
+                                                                </p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-lg-3 col-md-6">
+                                                        <div class="mega_menus_content d-flex">
+                                                            <div class="mega_menu_icon">
+                                                                <img src="assets/img/other.svg" alt="">
+                                                            </div>
+                                                            <div class="mega_menu_text">
+                                                                <h6>Other</h6>
+                                                                <p>Accessories, mounts, and gear that don't fit
+                                                                    traditional categories.</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+
+                                <li class="nav-item"><a class="nav-link fw-medium" href="#">About us</a></li>
+                            </ul>
+                        </div>
+                        <div class="header_button f-right">
+                            <a href="#" class="button">Contact Us</a>
+                        </div>
+                    </div>
+                    <div class="col-9">
+                        <div class="hamburger f-right" id="hamburger">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+
+        <div class="single_product_area pt-100 pb-100">
+            <div class="container">
+                <div class="row mb-60 d-flex align-items-center">
+                    <div class="col-lg-6 col-md-6">
+                        <div class="page-content">
+                            <a href="#">Home</a><span><img src="./assets/img/angle_right.svg" alt=""></span>
+                            <a href="#">Shop</a><span><img src="./assets/img/angle_right.svg" alt=""></span>
+                            <a href="#">Cameras</a><span><img src="./assets/img/angle_right.svg" alt=""></span>
+                            <p>Canon EOS R8</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6">
+                        <div class="share_button f-right"><a href=""><img src="assets/img/share.svg" alt="">Share</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-5">
+
+                        <div class="swiper mySwiper2">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <img src="assets/img/product_slider_1.png" />
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="assets/img/product_slider_1.png" />
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="assets/img/product_slider_1.png" />
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="assets/img/product_slider_1.png" />
+                                </div>
+                            </div>
+                            <div class="swiper-arrow">
+                                <button class="arrow-prev ak-arrow">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="25" viewBox="0 0 24 25"
+                                        fill="none">
+                                        <path d="M5 12.5H19" stroke="#676E73" stroke-width="2" stroke-linecap="round"
+                                            stroke-linejoin="round" />
+                                        <path d="M5 12.5L11 18.5" stroke="#676E73" stroke-width="2"
+                                            stroke-linecap="round" stroke-linejoin="round" />
+                                        <path d="M5 12.5L11 6.5" stroke="#676E73" stroke-width="2"
+                                            stroke-linecap="round" stroke-linejoin="round" />
+                                    </svg>
+                                </button>
+                                <button class="arrow-next ak-arrow">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="25" viewBox="0 0 24 25"
+                                        fill="none">
+                                        <path d="M19 12.5L5 12.5" stroke="#1E1E1E" stroke-width="2"
+                                            stroke-linecap="round" stroke-linejoin="round" />
+                                        <path d="M19 12.5L13 6.5" stroke="#1E1E1E" stroke-width="2"
+                                            stroke-linecap="round" stroke-linejoin="round" />
+                                        <path d="M19 12.5L13 18.5" stroke="#1E1E1E" stroke-width="2"
+                                            stroke-linecap="round" stroke-linejoin="round" />
+                                    </svg>
+                                </button>
+                            </div>
+                        </div>
+                        <div thumbsSlider="" class="swiper mySwiper1">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide swiper_castom">
+                                    <img src="assets/img/product_slider_2.png" />
+                                </div>
+                                <div class="swiper-slide swiper_castom">
+                                    <img src="assets/img/product_slider_3.png" />
+                                </div>
+                                <div class="swiper-slide swiper_castom">
+                                    <img src="assets/img/product_slider_4.png" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-7">
+                        <div class="single_product_ditals">
+                            <div class="single_product_button d-flex align-items-center mb-15">
+                                <div class="user-button"><span>Used</span></div>
+                                <div class="camera-button"><span>Camera </span></div>
+                            </div>
+                            <h2>Canon EOS R8 (Body Only)</h2>
+                            <p>A compact full-frame mirrorless camera with 24.2MP sensor and exceptional low-light
+                                performance.</p>
+                            <div class="price d-flex align-items-center mb-40">
+                                <h3>$ 950</h3>
+                                <h4><del>$ 1050</del></h4>
+                            </div>
+                            <button id="openModal" class="button">Schedule a Time for Pickup</button>
+
+                            <!-- Modal Overlay -->
+                            <div id="modalOverlay" class="modal-overlay">
+                                <div class="modal">
+                                    <div class="modal_header mb-30 d-flex align-items-center justify-content-between">
+                                        <h4>Schedule Your Pickup</h4>
+                                        <button class="close-btn" id="closeModal"><img src="assets/img/close.svg"
+                                                alt=""></button>
+                                    </div>
+                                    <div class="modal_title text-center">
+                                        <h4>Canon EOS R8 (Body Only)</h4>
+                                        <p class="">Our tram will respond as soon ass prossible</p>
+                                    </div>
+
+                                    <form>
+                                        <input type="text" placeholder="Full Name" required>
+                                        <input type="email" placeholder="Email Address" required>
+                                        <input type="tel" placeholder="Phone Number" required>
+                                        <input type="datetime-local" required placeholder=" Pickup Time">
+                                        <textarea placeholder="Additional Notes (Optional)"></textarea>
+                                        <button type="submit" class="button">Submit</button>
+                                    </form>
+                                </div>
+                            </div>
+                            <a href="" class="button gray_vaii">Need Shipping? Let’s Talk</a>
+                        </div>
+                        <div class="accordion" id="customAccordion">
+
+                            <!-- Details -->
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingOne">
+                                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                        Details
+                                    </button>
+                                </h2>
+                                <div id="collapseOne" class="accordion-collapse collapse show"
+                                    aria-labelledby="headingOne" data-bs-parent="#customAccordion">
+                                    <div class="accordion-body">
+                                        <p>Vintage Sunburst · Mahogany Body</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Shipping -->
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingTwo">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                        Shipping
+                                    </button>
+                                </h2>
+                                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                                    data-bs-parent="#customAccordion">
+                                    <div class="accordion-body">
+                                        <p>Free worldwide shipping available. Delivery within 5–7 business days.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Returns -->
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingThree">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseThree" aria-expanded="false"
+                                        aria-controls="collapseThree">
+                                        Returns
+                                    </button>
+                                </h2>
+                                <div id="collapseThree" class="accordion-collapse collapse"
+                                    aria-labelledby="headingThree" data-bs-parent="#customAccordion">
+                                    <div class="accordion-body">
+                                        <p>30-day return policy. Items must be in original condition.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="tabs_area">
+                        <div class="tabs_button mb-35">
+                            <a href="" class="button w-100">Description</a>
+                        </div>
+                        <div class="tabs_box">
+                            <h3>Product Description</h3>
+                            <p>The Canon EOS R8 is a compact and lightweight full-frame mirrorless camera that delivers
+                                exceptional image quality and performance. With its 24.2MP CMOS sensor and DIGIC X
+                                processor, it captures stunning photos and 4K video with remarkable detail and color
+                                accuracy.</p>
+                            <h3>Key Features</h3>
+                            <ul class="features-list pl-30">
+                                <li>24.2MP Full-Frame CMOS Sensor</li>
+                                <li>DIGIC X Image Processor</li>
+                                <li>4K UHD Video Recording at 60p</li>
+                                <li>Dual Pixel CMOS AF II</li>
+                                <li>5-Axis In-Body Image Stabilization</li>
+                                <li>3.0" Vari-Angle Touchscreen LCD</li>
+                                <li>0.39" 2.36m-Dot OLED EVF</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="product_area pt-100 pb-100">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-6 col-md-8">
+                        <div class="section_title pb-40">
+                            <h2 class="fw-semibold mb-0">You May Also Like</h2>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-4">
+                        <div class="section_button f-right pb-40">
+                            <a href="#" class="button">Explore More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="row g-4">
+                    <div class="col-lg-4 col-md-6">
+                        <div class="product_items">
+                            <div class="product_items_text d-flex align-items-center justify-content-between">
+                                <span class="left">Used</span>
+                                <span class="right ">Camera</span>
+                            </div>
+                            <img class="w-100 mb-15" src="assets/img/product_1.png" alt="">
+                            <div class="product_content pb-15">
+                                <h5>Canon EOS R5</h5>
+                                <p>45MP • 8K Video • Mirrorless</p>
+                            </div>
+                            <div class="price_button d-flex align-items-center justify-content-between">
+                                <h3>$ 950</h3>
+                                <a href="#" class="button">View Details</a>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="product_items">
+                            <div class="product_items_text d-flex align-items-center justify-content-between">
+                                <span class="left">Used</span>
+                                <span class="right ">Lighting</span>
+                            </div>
+                            <img class="w-100 mb-15" src="assets/img/product_2.png" alt="">
+                            <div class="product_content pb-15">
+                                <h5>Canon RF 50mm f/1.2L</h5>
+                                <p>Premium prime lens for stunning portraits.</p>
+                            </div>
+                            <div class="price_button d-flex align-items-center justify-content-between">
+                                <h3>$ 950</h3>
+                                <a href="#" class="button">View Details</a>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mx-auto">
+                        <div class="product_items">
+                            <div class="product_items_text d-flex align-items-center justify-content-between">
+                                <span class="left green">New</span>
+                                <span class="right ">Monitors</span>
+                            </div>
+                            <img class="w-100 mb-15" src="assets/img/product_3.png" alt="">
+                            <div class="product_content pb-15">
+                                <h5>BenQ SW271C 4K</h5>
+                                <p>Professional color accuracy for photo/video editing.</p>
+                            </div>
+                            <div class="price_button d-flex align-items-center justify-content-between">
+                                <h3>$ 950</h3>
+                                <a href="#" class="button">View Details</a>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="contact_info gray-bg pt-100 pb-100">
+            <div class="container">
+                <div class="contact_wrapper d-flex justify-content-between">
+                    <div class="contact_item_imfo pr-75">
+                        <div class="store_info">
+                            <h4>Store Info</h4>
+                            <p>We’re proud to run a physical showroom in [City Name], where you <br> can try before you
+                                buy,
+                                meet the team, and explore gear up close.</p>
+                            <div class="info_items mb-20">
+                                <div class="info_icon">
+                                    <img src="assets/img/location.svg" alt="">
+                                </div>
+                                <div class="info_content">
+                                    <span>Location</span>
+                                    <a href="#">123 Melody Street, Los Angeles, CA</a>
+                                </div>
+                            </div>
+                            <div class="info_items mb-20">
+                                <div class="info_icon">
+                                    <img src="assets/img/shop.svg" alt="">
+                                </div>
+                                <div class="info_content">
+                                    <span>Shop Open</span>
+                                    <a href="#">Mon–Sat: 10AM – 7PM</a>
+                                </div>
+                            </div>
+                            <div class="info_items mb-20">
+                                <div class="info_icon">
+                                    <img src="assets/img/PhoneCall.svg" alt="">
+                                </div>
+                                <div class="info_content">
+                                    <span>Call Now</span>
+                                    <a href="#">(123) 456-7890</a>
+                                </div>
+                            </div>
+                            <div class="info_items mb-25">
+                                <div class="info_icon">
+                                    <img src="assets/img/whatsapp.svg" alt="">
+                                </div>
+                                <div class="info_content">
+                                    <span>Chat with us</span>
+                                    <a href="#">(123) 456-7890</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="social_media">
+                            <h6>Follow me on social media</h6>
+                            <div class="social_media_icon">
+                                <a href="#"><img src="assets/img/facebook.svg" alt=""></a>
+                                <a href="#"><img src="assets/img/twitter.svg" alt=""></a>
+                                <a href="#"><img src="assets/img/linkdin.svg" alt=""></a>
+                                <a href="#"><img src="assets/img/insta.svg" alt=""></a>
+                                <a href="#"><img src="assets/img/up.svg" alt=""></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="contact_item_from pl-75">
+                        <div class="contact_from">
+                            <h4 class="contact_from_title">Just say 👋 Hi</h4>
+                            <form action="" class="mb-40">
+                                <input type="text" placeholder="Full Name">
+                                <input type="email" name="" id="" placeholder="Email Address">
+                                <input type="tel" name="" id="" placeholder="Phone Number">
+                                <textarea name="" id="" placeholder="Message"></textarea>
+                            </form>
+                            <a href="" class="button">Send message</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer_area black-bg pt-45 pb-45">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 col-md-4">
+                        <div class="footer_content">
+                            <div class="footer_logo"><a href="#"><img src="assets/img/footer_logo.png" alt=""></a></div>
+                            <p>Your trusted destination for professional-grade camera <br> rentals and sales.
+                            </p>
+                            <p>We specialize in flexible contracts, fast service, and <br> expert support for creators
+                                of all
+                                levels.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-5 col-md-5 d-flex">
+                        <div class="footer-box">
+                            <h6>Quick Links</h6>
+                            <div class="footer-link">
+                                <a href="#">Home</a>
+                                <a href="#">Shop</a>
+                                <a href="#">About us Us</a>
+                                <a href="#">Privacy Policy</a>
+                                <a href="#">Terms of Service</a>
+                            </div>
+                        </div>
+                        <div class="footer-box">
+                            <h6>Store Address</h6>
+                            <div class="footer-link footer_lnk_2">
+                                <a href="#" class="d-flex align-items-center">
+                                    <img src="assets/img/footer_location.svg" alt="">123 Melody Street <br>
+                                    Los Angeles, CA 90001</a>
+                                <a class=" d-flex align-items-center" href="tel:1-405-440-3239">
+                                    <img src="assets/img/footer_call.svg" alt="">1-405-440-3239</a>
+                                <a class=" d-flex align-items-center" href="#">
+                                    <img src="assets/img/footer_clock.svg" alt="">Mon–Sat: 10AM – 7PM</a>
+                                <a class=" d-flex align-items-center" href="#">
+                                    <img src="assets/img/footer_mail.svg" alt="">demo12@gmail.com</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-3">
+                        <div class="footer-location">
+                            <h6>Location </h6>
+                            <a href="#">
+                                <img src="assets/img/map.png" alt=""></a>
+                        </div>
+                    </div>
+                    <hr>
+                </div>
+                <div class="row">
+                    <div class="col-lg-6 col-md-6 order-md-1 order-2">
+                        <div class="copyright_text">
+                            <p>2025 demo. All rights reserved.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 order-md-2 order-1">
+                        <div class="footer_social_icon f-right">
+                            <a href="#"><img src="assets/img/twitter.svg" alt=""></a>
+                            <a href="#"><img src="assets/img/insta.svg" alt=""></a>
+                            <a href="#"><img src="assets/img/linkdin.svg" alt=""></a>
+                            <a href="#"><img src="assets/img/facebook.svg" alt=""></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="assets/js/vendor/jquery-1.12.4.min.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/popper.min.js"></script>
+    <script src="assets/js/swiper-bundle.min.js"></script>
+    <script src="assets/js/plugins.js"></script>
+    <script src="assets/js/main.js"></script>
+
+    <script>
+
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,595 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Denton</title>
+    <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.svg">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/default.css">
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+</head>
+
+<body>
+    <!-- Preloader -->
+    <div id="preloader">
+        <div class="loader3">
+            <span></span>
+            <span></span>
+        </div>
+    </div>
+    <header>
+        <div class="header_top">
+            <span>Orders over $10,000 get 10% off!</span>
+        </div>
+        <div class="header_area pt-15 pb-15 main-header">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-3 col-3">
+                        <div class="logo"><a href="#"><img src="./assets/img/logo.png" alt=""></a></div>
+                    </div>
+                    <div class="col-lg-9 col-md-9 nav-links d-flex justify-content-between align-items-center"
+                        id="navLinks">
+                        <div class="main_menu text-center">
+                            <ul>
+                                <li class="nav-item"><a class="nav-link fw-medium active" href="#">Home</a></li>
+                                <li class="nav-item"><a class="nav-link fw-medium" href="#">Shop</a></li>
+                                <li class="nav-item dropdown position-static">
+                                    <a class="nav-link dropdown-toggle fw-medium" href="#" id="categoriesDropdown"
+                                        role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        Categories <img class="ml-10" src="assets/img/arrow-down.svg" alt="">
+                                    </a>
+                                    <div class="dropdown-menu custom-megamenu" aria-labelledby="categoriesDropdown">
+                                        <div class="container">
+                                            <div class="mega_menu_white_bg">
+                                                <div class="row g-4">
+                                                    <div class="col-lg-4 col-md-6">
+                                                        <div class="mega_menus_content d-flex">
+                                                            <div class="mega_menu_icon">
+                                                                <img src="assets/img/camera.svg" alt="">
+                                                            </div>
+                                                            <div class="mega_menu_text">
+                                                                <h6>Cameras</h6>
+                                                                <p>Professional cinema, DSLR, and mirrorless cameras
+                                                                    for
+                                                                    every production need.</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-lg-4 col-md-6">
+                                                        <div class="mega_menus_content d-flex">
+                                                            <div class="mega_menu_icon">
+                                                                <img src="assets/img/Interchangeable lenses.svg" alt="">
+                                                            </div>
+                                                            <div class="mega_menu_text">
+                                                                <h6>Lenses</h6>
+                                                                <p>Prime and zoom lenses compatible with major
+                                                                    camera
+                                                                    systems.</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-lg-4 col-md-6">
+                                                        <div class="mega_menus_content d-flex">
+                                                            <div class="mega_menu_icon">
+                                                                <img src="assets/img/light.svg" alt="">
+                                                            </div>
+                                                            <div class="mega_menu_text">
+                                                                <h6>Lighting</h6>
+                                                                <p>Studio, on-camera, and portable lighting setups
+                                                                    for
+                                                                    all environments.</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-lg-3 col-md-6">
+                                                        <div class="mega_menus_content d-flex">
+                                                            <div class="mega_menu_icon">
+                                                                <img src="assets/img/monitor.svg" alt="">
+                                                            </div>
+                                                            <div class="mega_menu_text">
+                                                                <h6>Monitors</h6>
+                                                                <p>Field and studio monitors for accurate video
+                                                                    preview
+                                                                    and color grading.</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-lg-3 col-md-6">
+                                                        <div class="mega_menus_content d-flex">
+                                                            <div class="mega_menu_icon">
+                                                                <img src="assets/img/heads.svg" alt="">
+                                                            </div>
+                                                            <div class="mega_menu_text">
+                                                                <h6>Heads</h6>
+                                                                <p>Tripod, fluid, and gear heads designed for
+                                                                    precision
+                                                                    camera movement.</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-lg-3 col-md-6">
+                                                        <div class="mega_menus_content d-flex">
+                                                            <div class="mega_menu_icon">
+                                                                <img src="assets/img/motion_control.svg" alt="">
+                                                            </div>
+                                                            <div class="mega_menu_text">
+                                                                <h6>Motion Control Robots</h6>
+                                                                <p>Automated rigs for dynamic, repeatable camera
+                                                                    motion
+                                                                    <br> shots.
+                                                                </p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-lg-3 col-md-6">
+                                                        <div class="mega_menus_content d-flex">
+                                                            <div class="mega_menu_icon">
+                                                                <img src="assets/img/other.svg" alt="">
+                                                            </div>
+                                                            <div class="mega_menu_text">
+                                                                <h6>Other</h6>
+                                                                <p>Accessories, mounts, and gear that don't fit
+                                                                    traditional categories.</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+
+                                <li class="nav-item"><a class="nav-link fw-medium" href="#">About us</a></li>
+                            </ul>
+                        </div>
+                        <div class="header_button f-right">
+                            <a href="#" class="button">Contact Us</a>
+                        </div>
+                    </div>
+                    <div class="col-9">
+                        <div class="hamburger f-right" id="hamburger">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="hero_area gray-bg pt-60 pb-60">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-7 col-md-6">
+                        <div class="hero_content">
+                            <h1 class="fw-bold mb-30">Capture Every <i class="fw-semibold">Moment with Precision</i>
+                            </h1>
+                            <p class="mb-40">Explore professional cameras and gear – visit our store today.</p>
+                            <div class="hero_button d-flex align-items-center gap-4">
+                                <a href="#" class="button">Barlow Semi Condensed</a>
+                                <a href="#" class="button button_white">Contact Us</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-5 col-md-6">
+                        <div class="hero_img"><img src="assets/img/hero.png" alt=""></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="explore_category pt-100 pb-100">
+            <div class="container">
+                <div class="row align-items-end">
+                    <div class="col-lg-12">
+                        <div class="section_title pb-40">
+                            <div class="title_button"><span>Category</span></div>
+                            <h2 class="fw-semibold mb-15">Explore by <i>Category</i></h2>
+                            <p>Explore cameras by category — from mirrorless bodies to full-frame DSLRs.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row g-4">
+                    <div class="col-lg-4 col-md-4">
+                        <div class="category_items">
+                            <div class="category_content">
+                                <h3>Cameras</h3>
+                                <p>Includes DSLR, mirrorless, digital, and cinema <br> cameras for all levels of
+                                    shooting.</p>
+                            </div>
+                            <div class="category_img"><img src="assets/img/category_1.png" alt=""></div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4">
+                        <div class="category_items">
+                            <div class="category_content">
+                                <h3>Lenses</h3>
+                                <p>Prime and zoom lenses compatible with leading <br> camera brands.</p>
+                            </div>
+                            <div class="category_img"><img src="assets/img/category_2.png" alt=""></div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4">
+                        <div class="category_items">
+                            <div class="category_content">
+                                <h3>Lighting</h3>
+                                <p>Portable, studio, and on-camera lighting gear for <br> every setup.</p>
+                            </div>
+                            <div class="category_img"><img src="assets/img/category_3.png" alt=""></div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-3">
+                        <div class="category_items">
+                            <div class="category_content">
+                                <h3>Monitors</h3>
+                                <p>Professional monitors for previewing <br> and fine-tuning video output.</p>
+                            </div>
+                            <div class="category_img"><img src="assets/img/category_4.png" alt=""></div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-3">
+                        <div class="category_items">
+                            <div class="category_content">
+                                <h3>Heads</h3>
+                                <p>Prime and zoom lenses compatible <br> with leading camera brands.</p>
+                            </div>
+                            <div class="category_img"><img src="assets/img/category_5.png" alt=""></div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-3">
+                        <div class="category_items">
+                            <div class="category_content">
+                                <h3>Motion Control Robots</h3>
+                                <p>Portable, studio, and on-camera <br> lighting gear for every setup.</p>
+                            </div>
+                            <div class="category_img"><img src="assets/img/category_6.png" alt=""></div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-3">
+                        <div class="category_items">
+                            <div class="category_content">
+                                <h3>Other</h3>
+                                <p>Miscellaneous tools, accessories, and <br> specialty gear.</p>
+                            </div>
+                            <div class="category_img"><img src="assets/img/category_7.png" alt=""></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="product_area gray-bg pt-100 pb-100">
+            <div class="container">
+                <div class="row align-items-end">
+                    <div class="col-lg-6 col-md-8">
+                        <div class="section_title pb-40">
+                            <div class="title_button"><span>Products</span></div>
+                            <h2 class="fw-semibold mb-15">Featured Products</h2>
+                            <p>Browse some of our most popular cameras available for purchase.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-4">
+                        <div class="section_button f-right pb-40">
+                            <a href="#" class="button">Explore More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="row g-4">
+                    <div class="col-lg-4 col-md-6">
+                        <div class="product_items">
+                            <div class="product_items_text d-flex align-items-center justify-content-between">
+                                <span class="left">Used</span>
+                                <span class="right ">Camera</span>
+                            </div>
+                            <img class="w-100 mb-15" src="assets/img/product_1.png" alt="">
+                            <div class="product_content pb-15">
+                                <h5>Canon EOS R5</h5>
+                                <p>45MP • 8K Video • Mirrorless</p>
+                            </div>
+                            <div class="price_button d-flex align-items-center justify-content-between">
+                                <h3>$ 950</h3>
+                                <a href="#" class="button">View Details</a>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="product_items">
+                            <div class="product_items_text d-flex align-items-center justify-content-between">
+                                <span class="left">Used</span>
+                                <span class="right ">Lighting</span>
+                            </div>
+                            <img class="w-100 mb-15" src="assets/img/product_2.png" alt="">
+                            <div class="product_content pb-15">
+                                <h5>Canon RF 50mm f/1.2L</h5>
+                                <p>Premium prime lens for stunning portraits.</p>
+                            </div>
+                            <div class="price_button d-flex align-items-center justify-content-between">
+                                <h3>$ 950</h3>
+                                <a href="#" class="button">View Details</a>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mx-auto">
+                        <div class="product_items">
+                            <div class="product_items_text d-flex align-items-center justify-content-between">
+                                <span class="left green">New</span>
+                                <span class="right ">Monitors</span>
+                            </div>
+                            <img class="w-100 mb-15" src="assets/img/product_3.png" alt="">
+                            <div class="product_content pb-15">
+                                <h5>BenQ SW271C 4K</h5>
+                                <p>Professional color accuracy for photo/video editing.</p>
+                            </div>
+                            <div class="price_button d-flex align-items-center justify-content-between">
+                                <h3>$ 950</h3>
+                                <a href="#" class="button">View Details</a>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="testimonials_area pt-100 pb-140">
+            <div class="container">
+                <div class="row align-items-end">
+                    <div class="col-lg-8 col-md-8">
+                        <div class="section_title pb-40">
+                            <div class="title_button"><span>Testimonials</span></div>
+                            <h2 class="fw-semibold pb-15">What Our Customers Say </h2>
+                            <p>Thousands of businesses trust Talkeen to automate their conversations and grow faster.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4">
+                        <div class="section_button f-right pb-40">
+                            <a href="#" class="button">Show More Reviews</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Swiper -->
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper mb-30">
+                        <div class="swiper-slide">
+                            <div class="testimonials_card">
+                                <div class="testimonials_rating d-flex pb-20">
+                                    <img src="assets/img/star.svg" alt="">
+                                    <img src="assets/img/star.svg" alt="">
+                                    <img src="assets/img/star.svg" alt="">
+                                    <img src="assets/img/star.svg" alt="">
+                                    <img src="assets/img/star.svg" alt="">
+                                </div>
+                                <p class="mb-20">Got my dream camera here — amazing service!”</p>
+                                <div class="testimonials_autor">
+                                    <img class="mr-10" src="assets/img/sSamantha.png" alt="">
+                                    <span>Samantha Lee</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="testimonials_card">
+                                <div class="testimonials_rating d-flex pb-20">
+                                    <img src="assets/img/star.svg" alt="">
+                                    <img src="assets/img/star.svg" alt="">
+                                    <img src="assets/img/star.svg" alt="">
+                                    <img src="assets/img/star.svg" alt="">
+                                    <img src="assets/img/star.svg" alt="">
+                                </div>
+                                <p class="mb-20">Got my dream camera here — amazing service!”</p>
+                                <div class="testimonials_autor">
+                                    <img class="mr-10" src="assets/img/samiul.png" alt="">
+                                    <span>Samiul Arefin</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="testimonials_card">
+                                <div class="testimonials_rating d-flex pb-20">
+                                    <img src="assets/img/star.svg" alt="">
+                                    <img src="assets/img/star.svg" alt="">
+                                    <img src="assets/img/star.svg" alt="">
+                                    <img src="assets/img/star.svg" alt="">
+                                    <img src="assets/img/star.svg" alt="">
+                                </div>
+                                <p class="mb-20">Got my dream camera here — amazing service!”</p>
+                                <div class="testimonials_autor">
+                                    <img class="mr-10" src="assets/img/samantha.png" alt="">
+                                    <span>Samantha Lee</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="testimonials_card">
+                                <div class="testimonials_rating d-flex pb-20">
+                                    <img src="assets/img/star.svg" alt="">
+                                    <img src="assets/img/star.svg" alt="">
+                                    <img src="assets/img/star.svg" alt="">
+                                    <img src="assets/img/star.svg" alt="">
+                                    <img src="assets/img/star.svg" alt="">
+                                </div>
+                                <p class="mb-20">Got my dream camera here — amazing service!”</p>
+                                <div class="testimonials_autor">
+                                    <img class="mr-10" src="assets/img/sSamantha.png" alt="">
+                                    <span>Samantha Lee</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="testimonials_card">
+                                <div class="testimonials_rating d-flex pb-20">
+                                    <img src="assets/img/star.svg" alt="">
+                                    <img src="assets/img/star.svg" alt="">
+                                    <img src="assets/img/star.svg" alt="">
+                                    <img src="assets/img/star.svg" alt="">
+                                    <img src="assets/img/star.svg" alt="">
+                                </div>
+                                <p class="mb-20">Got my dream camera here — amazing service!”</p>
+                                <div class="testimonials_autor">
+                                    <img class="mr-10" src="assets/img/samiul.png" alt="">
+                                    <span>Samiul Arefin</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="myswiper-pagination"></div>
+                </div>
+            </div>
+        </div>
+        <div class="contact_info gray-bg pt-100 pb-100">
+            <div class="container">
+                <div class="contact_wrapper d-flex justify-content-between">
+                    <div class="contact_item_imfo pr-75">
+                        <div class="store_info">
+                            <h4>Store Info</h4>
+                            <p>We’re proud to run a physical showroom in [City Name], where you <br> can try before you
+                                buy,
+                                meet the team, and explore gear up close.</p>
+                            <div class="info_items mb-20">
+                                <div class="info_icon">
+                                    <img src="assets/img/location.svg" alt="">
+                                </div>
+                                <div class="info_content">
+                                    <span>Location</span>
+                                    <a href="#">123 Melody Street, Los Angeles, CA</a>
+                                </div>
+                            </div>
+                            <div class="info_items mb-20">
+                                <div class="info_icon">
+                                    <img src="assets/img/shop.svg" alt="">
+                                </div>
+                                <div class="info_content">
+                                    <span>Shop Open</span>
+                                    <a href="#">Mon–Sat: 10AM – 7PM</a>
+                                </div>
+                            </div>
+                            <div class="info_items mb-20">
+                                <div class="info_icon">
+                                    <img src="assets/img/PhoneCall.svg" alt="">
+                                </div>
+                                <div class="info_content">
+                                    <span>Call Now</span>
+                                    <a href="#">(123) 456-7890</a>
+                                </div>
+                            </div>
+                            <div class="info_items mb-25">
+                                <div class="info_icon">
+                                    <img src="assets/img/whatsapp.svg" alt="">
+                                </div>
+                                <div class="info_content">
+                                    <span>Chat with us</span>
+                                    <a href="#">(123) 456-7890</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="social_media">
+                            <h6>Follow me on social media</h6>
+                            <div class="social_media_icon">
+                                <a href="#"><img src="assets/img/facebook.svg" alt=""></a>
+                                <a href="#"><img src="assets/img/twitter.svg" alt=""></a>
+                                <a href="#"><img src="assets/img/linkdin.svg" alt=""></a>
+                                <a href="#"><img src="assets/img/insta.svg" alt=""></a>
+                                <a href="#"><img src="assets/img/up.svg" alt=""></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="contact_item_from pl-75">
+                        <div class="contact_from">
+                            <h4 class="contact_from_title">Just say 👋 Hi</h4>
+                            <form action="" class="mb-40">
+                                <input type="text" placeholder="Full Name">
+                                <input type="email" name="" id="" placeholder="Email Address">
+                                <input type="tel" name="" id="" placeholder="Phone Number">
+                                <textarea name="" id="" placeholder="Message"></textarea>
+                            </form>
+                            <a href="" class="button">Send message</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer_area black-bg pt-45 pb-45">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 col-md-4">
+                        <div class="footer_content">
+                            <div class="footer_logo"><a href="#"><img src="assets/img/footer_logo.png" alt=""></a></div>
+                            <p>Your trusted destination for professional-grade camera <br> rentals and sales.
+                            </p>
+                            <p>We specialize in flexible contracts, fast service, and <br> expert support for creators
+                                of all
+                                levels.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-5 col-md-5 d-flex">
+                        <div class="footer-box">
+                            <h6>Quick Links</h6>
+                            <div class="footer-link">
+                                <a href="#">Home</a>
+                                <a href="#">Shop</a>
+                                <a href="#">About us Us</a>
+                                <a href="#">Privacy Policy</a>
+                                <a href="#">Terms of Service</a>
+                            </div>
+                        </div>
+                        <div class="footer-box">
+                            <h6>Store Address</h6>
+                            <div class="footer-link footer_lnk_2">
+                                <a href="#" class="d-flex align-items-center">
+                                    <img src="assets/img/footer_location.svg" alt="">123 Melody Street <br>
+                                    Los Angeles, CA 90001</a>
+                                <a class=" d-flex align-items-center" href="tel:1-405-440-3239">
+                                    <img src="assets/img/footer_call.svg" alt="">1-405-440-3239</a>
+                                <a class=" d-flex align-items-center" href="#">
+                                    <img src="assets/img/footer_clock.svg" alt="">Mon–Sat: 10AM – 7PM</a>
+                                <a class=" d-flex align-items-center" href="#">
+                                    <img src="assets/img/footer_mail.svg" alt="">demo12@gmail.com</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-3">
+                        <div class="footer-location">
+                            <h6>Location </h6>
+                            <a href="#">
+                                <img src="assets/img/map.png" alt=""></a>
+                        </div>
+                    </div>
+                    <hr>
+                </div>
+                <div class="row">
+                    <div class="col-lg-6 col-md-6 order-md-1 order-2">
+                        <div class="copyright_text">
+                            <p>2025 demo. All rights reserved.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 order-md-2 order-1">
+                        <div class="footer_social_icon f-right">
+                            <a href="#"><img src="assets/img/twitter.svg" alt=""></a>
+                            <a href="#"><img src="assets/img/insta.svg" alt=""></a>
+                            <a href="#"><img src="assets/img/linkdin.svg" alt=""></a>
+                            <a href="#"><img src="assets/img/facebook.svg" alt=""></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="assets/js/vendor/jquery-1.12.4.min.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/popper.min.js"></script>
+    <script src="assets/js/swiper-bundle.min.js"></script>
+    <script src="assets/js/plugins.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>

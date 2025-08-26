@@ -342,8 +342,10 @@ button:focus:not(:focus-visible) {
 .container-lg,
 .container-md,
 .container-sm,
-.container-xl {
+.container-xl,
+.menu_container {
 	max-width: 1240px;
+	margin: 0 auto;
 }
 
 .header_area {

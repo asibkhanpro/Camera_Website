@@ -711,6 +711,10 @@
   .filter-box .price-input {
     margin-bottom: 80px;
   }
+
+  .mega_menu_white_bg {
+    padding: 15px;
+  }
 }
 
 @media (min-width: 579.98px) and (max-width: 767.98px) {
